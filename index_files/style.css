@@ -1,0 +1,83 @@
+body {font-family: 'Risque', sans-serif;
+    background-image: url("image/fon.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+#header {
+    position: absolute;
+    width: 214px;
+    height: 67px;
+    left: calc(50% - 214px/2 - 2.64px);
+    top: calc(50% - 61.21px/2 - 253.84px);
+    background: white;
+    font-size:20pt;
+    line-height: 58px;
+    text-align:center;
+    margin-top:222;
+}
+#footer
+{
+    margin:0;
+    text-align: center; /*выравнивание по центру*/
+    font-size:30pt;
+    line-height: 43,93px;
+    color:black;
+    
+    
+}
+table {
+    color:white;
+    font-size: 40px;
+    
+    
+}
+
+#rectangle {
+    width: 214px;
+    height: 62px;
+    background: white;
+}
+
+    
+}
+ 
+#container {
+     background: #FFD700;
+     margin: auto auto;
+     text-align: center;
+     width: 80%;
+     height: 400px;
+}
+ 
+#navigation {
+     background: white;
+     width: 100%;
+     height: 25px;
+}
+ 
+#sidebar {
+     background: #40E0D0;
+     float: right;
+     width: 20%;
+     height: 280px;
+}
+
+#content {
+     background: #DCDCDC;
+     float: right;
+     width: 80%;
+     height: 280px;
+}
+ 
+#clear {
+     clear: both;
+}
+ 
+#footer {
+    background: #00BFFF;
+	width: 100%;
+	height: 40px;
+}

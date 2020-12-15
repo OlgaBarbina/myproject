@@ -1,0 +1,66 @@
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Risque&amp;display=swap" rel="stylesheet">
+    <title>To do list</title>
+</head>
+
+<body>
+
+    <div class="Title">To do list</div>
+
+    <div class="cont">
+
+
+        <div id="test1">Task List <br>
+            <div class="New_task">
+                <span>
+        
+         <input class="input_text"  placeholder='New task name' type="text" id="taskEdit">
+          <input  class="input_date" type="date" id="dateEdit">
+          <button class="add" value="Add" onclick="addTask()">+</button>
+        </span></div>
+        </div>
+
+
+        <div id="test2">State
+            <div class="button_state"><button class="button_old" id="showButton">show</button></div>
+            <div class="button_state"><button class="button_old" id="hideButton">hide</button></div>
+            <div class="button_state"><button class="button_old" id="doneButton">done</button></div>
+            <div class="button_state"><button class="button_old" id="deleteButton">del</button></div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <div style="clear:both;"></div>
+
+
+
+    <div class="table" id="taskList">
+
+        <div class="table_b">
+
+            <div id="buttonBlock" style="cursor:pointer;">
+
+                <div class="content" id="taskLine">Нажмите "done" чтобы отметить задачу как выполненую, и наоборот. Нажмите "del" для удаления задачи. Нажмите "hide" чтобы скрыть выполненые. Нажмите "show" чтобы показать выполненые.</div>
+
+                <div style="clear:both;"></div>
+            </div>
+
+
+
+
+
+            <script src="javascript.js">
+            </script>
+
+</body>
+
+</html>
